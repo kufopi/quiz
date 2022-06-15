@@ -1,0 +1,31 @@
+[[questions]]
+question = "Name of your neighbour"
+answer= ["Iya Dogara","Iya Michelle"]
+alt =["Iya Ali","Iya Ire"]
+hint= "She currently has 2 children"
+
+[[questions]]
+question = "What ride does your neighbour upstairs drive?"
+answer= ["Vibe"]
+alt = ["Opel","Toyota","Honda"]
+
+[[questions]]
+question = "What country do you want to study for your Masters?"
+answer = ["Estonia","Poland"]
+alt = ["Oman","Turkiye"]
+hint= "European Countries"
+
+[[questions]]
+question = "What state do yo work in?"
+answer = ["Ogun"]
+alt = ["Oyo","Gombe","Adamawa"]
+
+[[questions]]
+question = "When Kemta was born?"
+answer = ["1984"]
+alt = ["1990","2000","2010"]
+
+[[questions]]
+question = "Can 00Papi drive?"
+answer = ["Yes"]
+alt = ["No","Maybe","None"]
