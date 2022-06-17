@@ -19,7 +19,15 @@ NUM_PER_QUIZ=int(input('How many Questions? '))
 
 
 def prepare(path):
-    store= tomli.loads(path.read_text())['questions']
+    #store= tomli.loads(path.read_text())['questions']
+    topic_info = tomli.loads(path.read_text())
+    topics = {
+        topic["label"]:topic["questions"] for topic in topic_info.values()
+    }
+    topic_label = get_answer(q="Which topic do you want to be quizzed about",ans=sorted(topics))[0]
+    # print(f'topic label ={topic_label}')
+    # print(f'topics ={topics}')
+    store =topics[topic_label]
     q_num = min(NUM_PER_QUIZ, len(store))
     return  random.sample(store, k=q_num)
 
@@ -62,6 +70,7 @@ def get_answer(q,ans,num_choices=1,hint=None):
                 f"Please use {', '.join(zip_options)}"
             )
             continue
+
         return [zip_options[choice.strip(" ").lower()] for choice in answers]
 
     # while (choice := input(f'\n Choice: ').lower()) not in zip_options.keys():  # used walrus operator here

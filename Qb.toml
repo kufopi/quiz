@@ -1,31 +1,67 @@
-[[questions]]
+[python]
+label="Python"
+
+[[python.questions]]
 question = "Name of your neighbour"
 answer= ["Iya Dogara","Iya Michelle"]
 alt =["Iya Ali","Iya Ire"]
 hint= "She currently has 2 children"
 
-[[questions]]
+[[python.questions]]
 question = "What ride does your neighbour upstairs drive?"
 answer= ["Vibe"]
 alt = ["Opel","Toyota","Honda"]
 
-[[questions]]
+[[python.questions]]
 question = "What country do you want to study for your Masters?"
 answer = ["Estonia","Poland"]
 alt = ["Oman","Turkiye"]
 hint= "European Countries"
 
-[[questions]]
+[[python.questions]]
 question = "What state do yo work in?"
 answer = ["Ogun"]
 alt = ["Oyo","Gombe","Adamawa"]
 
-[[questions]]
+[[python.questions]]
 question = "When Kemta was born?"
 answer = ["1984"]
 alt = ["1990","2000","2010"]
 
-[[questions]]
+[[python.questions]]
 question = "Can 00Papi drive?"
 answer = ["Yes"]
 alt = ["No","Maybe","None"]
+
+[capitals]
+label = "Capitals"
+
+[[capitals.questions]]
+question = "What's the capital of Ogun state?"
+answer = ["Abeokuta"]
+alt = ["Ibadan","Ijebu-Ode","Ilaro"]
+hint= "Dominated by the Egba folks"
+
+[[capitals.questions]]
+question = "What's the capital of Burkina-Faso?"
+answer = ["Ouagadougou"]
+alt = ["Bamako","Kinshasha","Niamey"]
+hint= "The name Burkina Faso, which means “Land of Incorruptible People"
+
+[[capitals.questions]]
+question = "What's the capital of Mali?"
+answer = ["Bamako"]
+alt = ["Banjul","Kinshasha","Rabat"]
+hint= "  located on the Niger River in the southwestern part of the country"
+
+[[capitals.questions]]
+question = "What's the capital of Gambia?"
+answer = ["Banjul"]
+alt = ["Nouakchott","Casablanca","Niamey"]
+hint= " It is the centre of the eponymous administrative division"
+
+[[capitals.questions]]
+question = "What's the capital of Namibia?"
+answer = ["Windhoek"]
+alt = ["Gaborone","Tunis","Malabo"]
+hint= "It lies at an elevation of 5,428 feet (1,654 metres) and is about 400 miles (650 km) north of the Orange River and 760 miles (1,225 km) north of Cape Town, South Africa"
